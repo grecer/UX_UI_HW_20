@@ -25,22 +25,22 @@
         </li>
     </ul>
     <!-- Jumbotron/Hero (Bootstrap Component) -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid twoColumnGrid">
         <div class="container">
             <h1 class="display-4">Nonprofit Website Redesign</h1>
             <p class="lead">Making a nonprofit website responsive and more accessible to users through a full UX
                 Redesign.</p>
             <p>Team of 5, project delivered in 3 weeks</p>
             <p>Role: Researcher, UX Designer</p>
-            <div class="heroSection">
-                <div class="heroList">
+            <div class="twoColumnGrid">
+                <div class="smallMargin">
                     <h5>Deliverables:</h5>
                     <ul>
                         <li>Slide Deck containing research results and design process</li>
                         <li>Finished Figma prototype for both desktop and mobile versions of the website</li>
                     </ul>
                 </div>
-                <div class="heroList">
+                <div class="smallMargin">
                     <h5>Tools:</h5>
                     <ul>
                         <li>Figma</li>
@@ -56,13 +56,13 @@
             <img src="images/heroimage.png" class="heroImage">
         </div>
     </div>
-    <div class="problemSolution">
-        <div class="problem">
+    <div class="twoColumnGrid">
+        <div class="smallMargin">
             <h4>The Problem:</h4>
             <p>The current Gifts for Seniors website was outdated and didn’t have a global navbar making it difficult
                 for new users and potential volunteers to use their site.</p>
         </div>
-        <div class="problem">
+        <div class="smallMargin">
             <h4>Our Solution:</h4>
             <p>Create a navbar and style guide to make the website intuitive and cohesive, making sure important
                 information to users such as mission statement and volunteer opportunities are prioritized.</p>
@@ -83,7 +83,7 @@
 
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                    <img src="images/surveyResults.png">
+                    <img class="accordianImage" src="images/surveyResults.png">
                 </div>
             </div>
         </div>
@@ -92,19 +92,13 @@
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
+                        Affinity Diagram
                     </button>
                 </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                    labore sustainable VHS.
+                    <img class="accordianImage" src="images/Affinity Diagram.png">
                 </div>
             </div>
         </div>
@@ -113,19 +107,30 @@
                 <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
+                        Heuristic Analysis
                     </button>
                 </h2>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                    labore sustainable VHS.
+                <div class="card-body twoColumnGrid">
+                    <div class="smallMargin">
+                        <img class="accordianImage" src="images/heuristics1.png">
+                        <ol>
+                            <li>Logo - Limited Changes.</li>
+                            <li>Nav Bars - Top nav bar is overshadowed by row of buttons below. Row of buttons is not only inconsistent, but also not very helpful for navigation.</li>
+                            <li>Hero Image - Low quality and odd aspect ratio.</li>
+                            <li>Call to Action - Effective for driving donations, but space/copy could be utilized better.</li>
+                            <li>Testimonials - Personal insights from previous volunteers are very beneficial to new-comers.</li>
+                        </ol>
+                    </div>
+                    <div class="smallMargin">
+                        <img class="accordianImage" src="images/heuristics2.png">
+                        <ol start="6">
+                            <li>Images Carousel - Images are low quality.</li>
+                            <li>Footer - Broken links, could be sorted more clearly.</li>
+                            <li>Social links</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>

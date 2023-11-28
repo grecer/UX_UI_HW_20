@@ -2,17 +2,12 @@ body {
     margin: 24px;
 }
 
-.jumbotron {
+.twoColumnGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.heroSection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.heroList {
+.smallMargin {
     margin: 15px;
 }
 
@@ -21,11 +16,8 @@ body {
     height: auto;
 }
 
-.problemSolution{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.accordianImage {
+    max-width: 100%;
+    height: auto;
 }
 
-.problem {
-    margin: 15px;
-}
