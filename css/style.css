@@ -7,17 +7,16 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.threeColumnGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .smallMargin {
     margin: 15px;
 }
 
-.heroImage {
+.defaultImage {
     max-width: 100%;
     height: auto;
 }
-
-.accordianImage {
-    max-width: 100%;
-    height: auto;
-}
-
