@@ -1,0 +1,31 @@
+body {
+    margin: 24px;
+}
+
+.jumbotron {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heroSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heroList {
+    margin: 15px;
+}
+
+.heroImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.problemSolution{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.problem {
+    margin: 15px;
+}
